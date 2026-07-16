@@ -1,3 +1,11 @@
+<h1 align="center">Hi, I'm kenta 👋</h1>
+
+<p align="center">
+  Software Engineer in Tokyo<br>
+  Go / TypeScript / Kotlin / PHP · Next.js / GraphQL · AWS / Google Cloud · Claude Code / MCP<br>
+  🏓 Table Tennis
+</p>
+
 <p align="center">
   <a href="https://kamihork.github.io/">Website</a> ·
   <a href="https://x.com/kamihork">X</a> ·
