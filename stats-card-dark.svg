@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">KentaKamihori's GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 13, Total Commits  : 6962, Total PRs: 1367, Total Issues: 26, Contributed to (last year): 6</desc>
+        <desc id="descId">Total Stars Earned: 13, Total Commits  : 6963, Total PRs: 1367, Total Issues: 26, Contributed to (last year): 6</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 110.27425815268859;
+        stroke-dashoffset: 110.2740253474577;
       }
     }
   
