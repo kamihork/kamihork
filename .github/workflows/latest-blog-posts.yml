@@ -22,4 +22,4 @@ jobs:
           feed_list: "https://zenn.dev/kamihork/feed,https://qiita.com/kamihork/feed,https://note.com/kamihork/rss"
           max_post_count: 5
           date_format: "yyyy.mm.dd"
-          template: "- $date — [$title]($url)$newline"
+          template: "$newline- $date — [$title]($url)"
