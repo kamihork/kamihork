@@ -27,14 +27,3 @@
 - 2025.05.20 — [Google最新動画生成モデル「Veo 3」がやばすぎる](https://note.com/kamihork/n/n8f39bb4d1814)<!-- BLOG-POST-LIST:END -->
 
 <sub>Zenn / Qiita / note の新着記事から毎朝自動更新</sub>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./stats-card-dark.svg">
-    <img height="170" src="./stats-card.svg" alt="GitHub stats including private and organization work" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./top-langs-card-dark.svg">
-    <img height="170" src="./top-langs-card.svg" alt="Top languages" />
-  </picture>
-</p>
