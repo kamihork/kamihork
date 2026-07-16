@@ -1,0 +1,25 @@
+# .github/workflows/latest-blog-posts.yml に配置してください
+name: Latest blog posts
+
+on:
+  schedule:
+    - cron: "0 21 * * *"   # JST 6:00 (UTC 21:00) に毎日実行
+  workflow_dispatch:        # 手動実行も可能
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Pull latest posts from Zenn / Qiita / note
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://zenn.dev/kamihork/feed,https://qiita.com/kamihork/feed,https://note.com/kamihork/rss"
+          max_post_count: 5
+          date_format: "yyyy.mm.dd"
+          template: "- $date — [$title]($url)$newline"
