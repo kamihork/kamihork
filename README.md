@@ -29,5 +29,12 @@
 <sub>Zenn / Qiita / note の新着記事から毎朝自動更新</sub>
 
 <p align="center">
-  <img src="./stats-card.svg" alt="GitHub activity: yearly contributions including private and organization work, and top languages" width="960" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./stats-card-dark.svg">
+    <img height="170" src="./stats-card.svg" alt="GitHub stats including private and organization work" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./top-langs-card-dark.svg">
+    <img height="170" src="./top-langs-card.svg" alt="Top languages" />
+  </picture>
 </p>

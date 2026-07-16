@@ -15,14 +15,25 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate stats card
+      - name: Checkout renderers (github-readme-stats fork)
+        uses: actions/checkout@v4
+        with:
+          repository: kamihork/github-readme-stats
+          path: grs
+
+      - name: Install renderer dependencies
+        working-directory: grs
+        run: npm install --omit=dev --ignore-scripts
+
+      - name: Generate stats cards
         env:
           STATS_PAT: ${{ secrets.STATS_PAT }}
+          GRS_DIR: grs
         run: node scripts/update-stats.mjs
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add stats-card.svg stats-data.json
+          git add stats-card.svg stats-card-dark.svg top-langs-card.svg top-langs-card-dark.svg stats-data.json
           git diff --cached --quiet || { git commit -m "Update stats card"; git push; }

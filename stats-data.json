@@ -13,27 +13,13 @@
     "2025": 1870,
     "2026": 952
   },
-  "topLangs": [
-    {
-      "name": "TypeScript",
-      "pct": 31.868648424496843
-    },
-    {
-      "name": "Java",
-      "pct": 15.078846164770306
-    },
-    {
-      "name": "HTML",
-      "pct": 10.209612642653049
-    },
-    {
-      "name": "JavaScript",
-      "pct": 7.468856332971671
-    },
-    {
-      "name": "C#",
-      "pct": 6.846835076318316
-    }
-  ],
-  "updatedAt": "2026-07-16"
+  "updatedAt": "2026-07-16",
+  "allTime": {
+    "stars": 13,
+    "prs": 1367,
+    "issues": 26,
+    "contributedTo": 6,
+    "followers": 7,
+    "reviews": 0
+  }
 }
