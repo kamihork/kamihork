@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="./profile-card.svg" alt="kenta@kamihork — Software Engineer in Tokyo. Go / TypeScript / Kotlin / PHP, Next.js / GraphQL, AWS / Google Cloud, Claude Code / MCP. Products: times, Copy as Markdown for AI, Warikaan. Hobby: Table Tennis." width="960" />
-</p>
-
-<p align="center">
   <a href="https://kamihork.github.io/">Website</a> ·
   <a href="https://x.com/kamihork">X</a> ·
   <a href="https://zenn.dev/kamihork">Zenn</a> ·
