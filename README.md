@@ -24,7 +24,7 @@
 ### 📝 Latest posts
 
 <!-- BLOG-POST-LIST:START -->
-- 2026.07.16 — [ClaudeCode の裏側、「なぜ」を見るツールをOSSで公開した話](https://note.com/kamihork/n/nde443df38932)
+- 2026.07.16 — [AIエージェントの裏側を見るツールをOSSで公開した話](https://note.com/kamihork/n/nde443df38932)
 - 2026.07.11 — [Claude Code が一晩で200万トークン溶かしたので、フライトレコーダーを作った](https://zenn.dev/kamihork/articles/f70a08364ef151)
 - 2026.07.02 — [Claude Fable 5とループエンジニアリング ── &quot;プロンプトを打たない&quot;時代の公式ガイド要約](https://zenn.dev/kamihork/articles/f0b35d727e03e1)
 - 2026.04.29 — [AWS Bedrock + Lambdaで発注書PDF/Excelを自動取り込みする仕組み](https://qiita.com/kamihork/items/55a3a493b8f7510d12c2)
